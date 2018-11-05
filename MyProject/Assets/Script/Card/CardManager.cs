@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using System;
 
 /// <summary>
 /// 卡牌系统   管理所有的卡牌  其实就是技能系统  
@@ -9,15 +9,7 @@ using UnityEngine;
 /// 后续有需求再改成有动作的战斗
 /// 
 /// </summary>
-public class CardManager : MonoBehaviour {
+public class CardManager  {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
