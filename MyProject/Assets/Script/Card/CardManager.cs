@@ -10,6 +10,24 @@ using System;
 /// 
 /// </summary>
 public class CardManager  {
+    public static CardManager CardMgrInstance = null;
+
+
+    private CardManager ()
+    {
+
+    }
+
+    public static CardManager GetInstance()
+    {
+        if(CardMgrInstance == null)
+        {
+            CardMgrInstance = new CardManager();
+        }
+
+        return CardMgrInstance;
+    }
+
 
 	
 }
